@@ -21,16 +21,23 @@ Now Support V1 and V2 Model <br />
 - UVR
 
 ### Installation
-
-1. Install Requirement <br />
+1. Build Pyword from source
+```
+#@title Build pyword from source
+%cd /content/
+!git clone https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder.git
+%cd /content/Python-Wrapper-for-World-Vocoder
+!git submodule update --init
+!pip install -U pip
+!pip install -r requirements.txt
+!pip install .
+```
+2. Install Requirement <br />
 ```bash
 pip install torch torchvision torchaudio
 
 pip install -r requirements.txt
 ```
-
-2. Install [ffmpeg](https://ffmpeg.org/)
-
 3. Download [Hubert Model](https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/hubert_base.pt)
 
 4. Run WebUI <br />
