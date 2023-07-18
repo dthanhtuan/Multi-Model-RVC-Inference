@@ -1,8 +1,4 @@
-<div align="center">
-
 # Multi-Model RVC Inference
-#### Plans
-- UVR
 
 ### Installation
 1. Build Pyword from source
